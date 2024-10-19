@@ -1,7 +1,63 @@
+:root {
+	--cyan: hsl(158, 36%, 37%);
+	--cream: hsl(30, 38%, 92%);
+	--dark-blue: hsl(212, 21%, 14%);
+	--grey-blue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+  --block-padding: 
+  --inline-padding: 
+}
+body {
+	background-color: var(--cream);
+}
+h1,
+h2 {
+	font-family: "Fraunces", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+h1 {
+	color: var(--dark-blue);
+}
+h2 {
+	color: var(--cyan);
+}
+p,
+button,
+h3 {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: var(--grey-blue);
+}
+h3 {
+	text-transform: uppercase;
+}
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+}
+.project-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.product-card {
+	background-color: var(--white);
+	border-radius: 10px;
+}
+.product-card__prices p {
+	text-decoration: line-through;
+}
+button {
+	border-radius: 8px;
+	color: var(--white);
 }
 .attribution {
 	font-size: 11px;
