@@ -17,6 +17,7 @@ h2 {
 	font-style: normal;
 	font-variation-settings: "SOFT" 0, "WONK" 0;
 	font-size: 32px;
+	line-height: 32px;
 }
 h1 {
 	color: var(--dark-blue);
@@ -38,6 +39,7 @@ h3 {
 h3 {
 	text-transform: uppercase;
 	font-size: 12px;
+	letter-spacing: 5px;
 }
 
 * {
